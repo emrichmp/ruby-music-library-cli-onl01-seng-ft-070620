@@ -64,8 +64,8 @@ class Song
     self.find_by_name(name) || self.create(name)
   end
   
-  def self.new_from_filename(filename)
-    array = filename.split("-")
+  def self.new_from_filename(file)
+    array = file.split("-")
     songn = array[1]
     artistn = array[0]
     genren = array[2].split(".mp3").join
