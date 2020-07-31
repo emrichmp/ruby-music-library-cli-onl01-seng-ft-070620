@@ -43,6 +43,14 @@ class Artist
     song
   end
   
-  
+  def genres()
+    @yeet = []
+    @songs.each do |song|
+      if @yeet.include?(song.genre)
+        
+      else
+        @yeet << song.genre
+      end
+  end
   
 end
