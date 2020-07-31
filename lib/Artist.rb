@@ -51,6 +51,8 @@ class Artist
       else
         @yeet << song.genre
       end
+    end
+    @yeet
   end
   
 end
