@@ -31,4 +31,13 @@ class Song
     song.save
     song
   end
+  
+  def artist
+    @artist
+  end
+  
+  def artist=(artist)
+    @artist = artist
+    artist.add_song(self)
+  end
 end
