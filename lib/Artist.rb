@@ -24,4 +24,6 @@ class Artist
     artist.save
     artist
   end
+  
+  def songs
 end
