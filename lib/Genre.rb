@@ -29,4 +29,8 @@ class Genre
   def songs
     @songs
   end
+  
+  def artists()
+    
+  end
 end
