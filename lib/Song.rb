@@ -65,7 +65,7 @@ class Song
   end
   
   def self.new_from_filename(file)
-    array = file.split("-")
+    array = file.split(" - ")
     songn = array[1]
     artistn = array[0]
     genren = array[2].split(".mp3").join
