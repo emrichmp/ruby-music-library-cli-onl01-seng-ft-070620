@@ -1,9 +1,9 @@
 class Artist
-  attr_accessor :name, :song, :musiclibrarycontroller, :musicimporter
+  attr_accessor :name, :song#, :musiclibrarycontroller, :musicimporter
   
   @@all = []
   
-  def intialize(name=nil)
+  def intialize(name)
     @name = name
     #@songs = []
   end
